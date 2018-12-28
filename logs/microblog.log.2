@@ -1,0 +1,108 @@
+2018-12-27 11:26:15,956 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:42]
+2018-12-27 11:28:00,074 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:42]
+2018-12-27 11:28:19,348 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:42]
+2018-12-27 11:42:56,950 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:42]
+2018-12-27 11:46:15,980 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:42]
+2018-12-27 12:03:50,198 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:42]
+2018-12-27 12:49:28,152 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 12:49:46,982 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 12:50:18,780 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 12:53:18,665 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 12:55:06,628 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 13:02:14,233 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 17:38:40,961 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 17:39:58,821 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:44]
+2018-12-27 18:05:03,595 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:46]
+2018-12-27 18:08:40,062 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:46]
+2018-12-27 18:10:27,996 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:46]
+2018-12-27 18:15:21,015 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:46]
+2018-12-27 18:25:07,732 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:48]
+2018-12-27 18:30:32,085 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:48]
+2018-12-27 23:57:47,591 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:71]
+2018-12-27 23:58:00,680 ERROR: Exception on / [GET] [in /Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2087, in preprocess_request
+    rv = func()
+  File "/Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/main/routes.py", line 16, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-12-27 23:58:05,647 ERROR: Exception on / [GET] [in /Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2087, in preprocess_request
+    rv = func()
+  File "/Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/main/routes.py", line 16, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-12-27 23:58:08,306 ERROR: Exception on / [GET] [in /Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2087, in preprocess_request
+    rv = func()
+  File "/Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/main/routes.py", line 16, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-12-28 00:01:02,492 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:71]
+2018-12-28 00:01:05,886 ERROR: Exception on / [GET] [in /Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2087, in preprocess_request
+    rv = func()
+  File "/Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/main/routes.py", line 16, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
+2018-12-28 00:04:26,431 INFO: Microblog startup [in /Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/__init__.py:71]
+2018-12-28 00:04:30,258 ERROR: Exception on / [GET] [in /Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py:1761]
+Traceback (most recent call last):
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/_compat.py", line 35, in reraise
+    raise value
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 1811, in full_dispatch_request
+    rv = self.preprocess_request()
+  File "/Users/peregrinedunn/.pyenv/versions/3.5.2/envs/hipflask/lib/python3.5/site-packages/flask/app.py", line 2087, in preprocess_request
+    rv = func()
+  File "/Users/peregrinedunn/Documents/projects/perrydunn/flask-app/app/main/routes.py", line 16, in before_request
+    g.locale = str(get_locale())
+NameError: name 'get_locale' is not defined
