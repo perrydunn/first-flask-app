@@ -17,3 +17,4 @@ class Config(object):
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
     ADMINS = ['no-reply@bogus.net']
     POSTS_PER_PAGE = 15
+    ELASTICSEARCH_URL = os.environ.get('ELASTICSEARCH_URL')
